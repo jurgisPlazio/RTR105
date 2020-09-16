@@ -1,0 +1,2 @@
+# RTR105
+Datormācība
