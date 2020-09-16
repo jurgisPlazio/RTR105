@@ -7,5 +7,6 @@
           cd - change directory
           pwd - strādājoša direktorija
           
+          
     
   
