@@ -1,7 +1,7 @@
-          # RTR105
+ #            RTR105
 ### Datormācība
-## Linux
-  # 1
-    whoim - Mans lietotājvards
+##    Linux
+  #       1
+          whoim - Mans lietotājvards
     
   
