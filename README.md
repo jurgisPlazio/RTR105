@@ -6,6 +6,7 @@
           ls - List directory
           cd - change directory
           pwd - strādājoša direktorija
+          -l
           
           
     
