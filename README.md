@@ -10,6 +10,7 @@
           mkdir - izveidot direktoriju(mapi)
           rmdit - izdzēst mapi(var izdest tikai tuksu mapi)
           rm - izdzēst mapi
+          man - manual
           
           
           
