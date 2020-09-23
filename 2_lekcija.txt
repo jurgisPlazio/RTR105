@@ -1,0 +1,68 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls -a
+    4  ls -l -a
+    5  ls -la
+    6  ls -l
+    7  cd ..
+    8  cd .
+    9  ls
+   10  cd user/
+   11  pwd
+   12  cd ~
+   13  cd Documents/
+   14  cd ~
+   15  cd Documents/
+   16  cd /home/user/
+   17  tree
+   18  clear
+   19  mkdir ABC
+   20  ls -lt
+   21  man ls
+   22  ls -lrt
+   23  cd ABC
+   24  cd ..
+   25  rmdir ABC/
+   26  ls
+   27  touch a.txt
+   28  ls
+   29  nano a.txt
+   30  echo sd
+   31  echo 1234 > b.txt
+   32  cat b.txt 
+   33  nano b.txt 
+   34  hexdump b.txt 
+   35  bindump
+   36  man hexdump 
+   37  echo 6789 >> b.txt 
+   38  cat b.txt 
+   39  mv b.txt b.text
+   40  ls
+   41  cat b.text 
+   42  touch c.txt
+   43  cd Downloads/
+   44  cp ../b.text ~/Desktop/
+   45  cd..
+   46  cd ..
+   47  ls 
+   48  cd Desktop/
+   49  ls
+   50  cd ..
+   51  cd Downloads/
+   52  mv
+   53  ls .//
+   54  ls ../
+   55  whereis ls
+   56  nano /bin/ls /usr/share/man/man1/ls.1.gz
+   57  cd ..
+   58  nano my_first_shell_script.sh
+   59  ls
+   60  man chmod
+   61  chmod 744 my_first_shell_script.sh 
+   62  ls -t
+   63  ls -lt
+   64  ./my_first_shell_script.sh 
+   65  echo $PATH
+   66  PATH=$PATH:~
+   67  my_first_shell_script.sh 
+   68  history
