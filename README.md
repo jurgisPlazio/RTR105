@@ -7,6 +7,10 @@
           cd - change directory
           pwd - strādājoša direktorija
           -l
+          mkdir - izveidot direktoriju(mapi)
+          rmdit - izdzēst mapi(var izdest tikai tuksu mapi)
+          rm - izdzēst mapi
+          
           
           
     
