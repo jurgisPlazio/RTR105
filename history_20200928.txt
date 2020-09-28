@@ -1,0 +1,77 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  echo $PATH
+    4  printenv
+    5  git clone https://github.com/jurgisPlazio/RTR105
+    6  ls
+    7  cd RTR105/
+    8  ls
+    9  cat README.md 
+   10  clear
+   11  cd ..
+   12  cd RTR105/
+   13  ls
+   14  ls -la
+   15  nano first.c
+   16  ls -lt
+   17  gcc help
+   18  gcc first.c 
+   19  nano first.c \
+   20  nano first.c 
+   21  gcc first.c 
+   22  LS
+   23  ls
+   24  a.out
+   25  echo a.out
+   26  ls -lt
+   27  ./a.out 
+   28  nano first.c
+   29  cp first.c second.c
+   30  gcc first.c
+   31  ls
+   32  ./a.out
+   33  nano second.c 
+   34  gcc first.c -o first_out.out
+   35  ls
+   36  ls -lt
+   37  nano first.c
+   38  gcc first.c -o first_out.out
+   39  ./first_out.out 
+   40  nano first.c
+   41  gcc first.c -o first_out.out
+   42  ./first_out.out 
+   43  naon first.c
+   44  nano first.c
+   45  naon aaa.c
+   46  nano aa.c
+   47  gcc aa.c -o aa_out.out
+   48  nano aa.c
+   49  gcc aa.c -o aa_out.out
+   50  ./aa_out.out 
+   51  gcc aa.c -o aa_out.out
+   52  nano aa.c
+   53  gcc aa.c -o aa_out.out
+   54  nano aa.c
+   55  gcc aa.c -o aa_out.out
+   56  nano aa.c
+   57  gcc aa.c -o aa_out.out
+   58  nano aa_out.out 
+   59  ./aa_out.out 
+   60  nano aa.c
+   61  gcc aa.c -o aa_out.out
+   62  nano aa.c
+   63  gcc aa.c -o aa_out.out
+   64  ./aa_out.out 
+   65  nano aa.c
+   66  gcc aa.c -o aa_out.out
+   67  ./aa_out.out 
+   68  nano aa.c
+   69  gcc aa.c -o aa_out.out
+   70  ./aa_out.out 
+   71  nano aa.c
+   72  gcc aa.c -o aa_out.out
+   73  nano aa.c
+   74  gcc aa.c -o aa_out.out
+   75  clear
+   76  histort > history_20200928.txt
+   77  history > history_20200928.txt
