@@ -16,7 +16,7 @@ int main()
     
     switch(select()) {
      case 'c':
-        //abi char ir nules kautvai ieprieks pieskrta vērtiba 1.Tapėc pieskiru vertibu velreiz
+      
         charFactorial();
         
      break;
