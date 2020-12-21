@@ -49,14 +49,18 @@ printf("            Rekurences reizinatajs:    ____________       \n");
 printf("                                                          \n");
 printf("                                            k             \n");
 printf("standarta funkcija− y= %.2f =%.2f \n" ,x , y );
+printf("lietotajafunkcija − y=mans_exp %.2f =%.2f \n" ,x , mans_exp(x) );
 
+ofstream mansout("mani_dati.txt");
 ofstream out("dati.txt");
 for(int i = -20;i<=20;i++)
 {
-     out << i << "   "<< mans_exp(i) << endl;
+   //  mansout << i << "   "<< mans_exp(i) << endl;
+  //   out << i << "   "<< (1+i)*exp(i) << endl;
 }
+mansout.close();
 out.close();
 
+return 0;
 
-printf("lietotajafunkcija − y=mans_exp %.2f =%.2f \n" ,x , mans_exp(x) );
 }
