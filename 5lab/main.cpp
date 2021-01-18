@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <string.h>
 using namespace std;
 
 void swap(int *xp, int *yp)
@@ -74,10 +75,14 @@ void most_occurred_number(int nums[], int size)
 int main(){
 
 int n=1;
+char type;
 
+printf("Iveleties burtus vai skaitļus(c vai i)");
+scanf("%c",&type);
+switch(type)
+{
 
-
-
+case 'i':{
 printf("Ievadiet skaitļu daudzumu n:");
 scanf(" %d",&n);
 int mas[n];
@@ -95,6 +100,33 @@ printf("Medianas vertiba : %.2f\n",findMedian(mas,n));
 most_occurred_number(mas,(sizeof(mas) / sizeof(mas[0])));
 printArray(mas,n);
 
+break;
+}
+case 'c':
+fflush(stdin);
+printf("Ievadiet simbolu rindu\n");
+char str[200];
+fgets(str, 200, stdin);
+int len = strlen(str);
+int masc[len-1];
+for(int ie = 0 ; ie<len-1;ie++)
+{
 
+    masc[ie]= (int)str[ie];
+
+}
+bubbleSort(masc,len-1);
+printf("Min vertiba : %c\n",masc[0]);
+printf("Max vertiba : %c\n",masc[len-2]);
+printf("Vid vertiba : %c\n",masc[(len-1)/2]);
+printf("Medianas vertiba : %.2f\n",findMedian(masc,len));
+most_occurred_number(masc,(sizeof(masc) / sizeof(masc[0])));
+for(int ie = 0 ; ie<len-1;ie++)
+{
+    //printf("%d\n",(int)str[ie]);
+   printf("%c\n",masc[ie]);
+}
+break;
+}
 return 0;
 }
